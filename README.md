@@ -172,7 +172,7 @@ Student • Developer • Gamer • Content Creator
   <li>🌐 Website: <a href="https://nsgamming.xyz">https://nsgamming.xyz</a></li>
   <li>🐙 GitHub: <a href="https://github.com/ns-gamming">https://github.com/ns-gamming</a></li>
   <li>▶️ YouTube: <a href="https://youtube.com/@Nishant_sarkar">NS GAMMiNG</a></li>
-  <li>📸 Instagram: <a href="https://instagram.com/nishant_sarkar__10k">@nishant_sarkar__10k</a></li>
+  <li>📸 Instagram: <a href="https://instagram.com/naborajs">@NABORAJ SARKAR</a></li>
   <li>🐦 X (Twitter): <a href="https://x.com/NSGAMMING699">@NSGAMMING699</a></li>
   <li>💬 Telegram: <a href="https://t.me/nsgamming69">@nsgamming69</a></li>
   <li>💼 LinkedIn: <a href="https://linkedin.com/in/naboraj-sarkar">Naboraj Sarkar</a></li>
