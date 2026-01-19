@@ -5,8 +5,8 @@ permissions:
 
 on:
   schedule:
-    # Runs once per day (UTC), actual commit time will be randomized
-    - cron: '0 0 * * *'
+    # Runs daily at 07:00 UTC → 12:30 PM IST (safe zone)
+    - cron: '0 7 * * *'
   workflow_dispatch:
 
 jobs:
@@ -19,15 +19,16 @@ jobs:
         with:
           persist-credentials: true
 
-      # Random delay between 0 and 6 hours
+      # Small random delay (0–90 minutes)
       - name: Random delay
         run: |
-          echo "Sleeping for a random time..."
-          sleep $((RANDOM % 21600))
+          echo "Sleeping for random delay..."
+          sleep $((RANDOM % 7200))
 
-      - name: Make daily commit
+      - name: Make daily commit (IST)
         run: |
-          echo "Daily update: $(date)" >> log.txt
+          export TZ="Asia/Kolkata"
+          echo "Daily update (IST): $(date)" >> log.txt
           git config user.email "action@github.com"
           git config user.name "GitHub Actions"
           git add log.txt
